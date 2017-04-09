@@ -8,8 +8,8 @@ layout: default
   </div>
 </section>
 
-<section class="center whylove">
-  <h2>Why I love {{page.categorywhy}}</h2>
+<section class="center whylove mob-margin">
+  <h2 class="title">Why I love {{page.categorywhy}}</h2>
   <p>{{page.whylove}}
   </p>
 </section>
@@ -20,26 +20,25 @@ layout: default
       <a href="{{post.url}}" class="col">
         <div class="background-image categorypic" style="background-image: url({{post.pic_path}})">
         </div>
-        <h3 class="featured-title">{{post.title}}</h3>
-        <p>
-          Read on
-        </p>
+        <h4 class="featured-title">{{post.title}}</h4>
+        <button class="read" type="button center">Read More</button>
       </a>
    {% endif %}
   {% endfor %}
 </section>
 
+<div>
+  <h2>{{page.top}}</h2>
+</div>
+
 <section class="grid">
-  <h2>{{page.top}}</h2> bob
   {% for brand in site.brands %}
     {% if brand.category == page.category %}
-      <a href="{{brand.external-link}}" class="col-3">
+      <a href="{{brand.url}}" class="col">
         <div class="categorypic background-image" style="background-image: url({{brand.pic_path}})">
         </div>
-        <h3>{{brand.title}}</h3>
-        <p>
-          Read on
-        </p>
+        <h3 class="featured-title center">{{brand.title}}</h3>
+        <button class="read" type="button center">Read More</button>
       </a>
    {% endif %}
   {% endfor %}

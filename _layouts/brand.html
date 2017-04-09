@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<section class="brand-header-section" style="background-image=url('{{ page.pic_path }}')">
+    <h1 class="center">{{ page.title }}</h1>
+</section>
+<div class="post-horizontal-line date">
+    {{ page.date | date: '%B %d, %Y' }}
+</div>
+<section class="brand-blurb-section post-text">
+
+{{content}}
+
+</section>
+<section class="brand-details-section center">
+  <p>
+    <a href="http://{{page.website}}"> Click here to check the {{page.name}} website.</a>
+  </p>
+  <div>
+    <h3>
+      My picks
+    </h3>
+    <ul>
+      {% for harry in page.picks %}
+        <li>
+          <a href="{{ harry.url }}" target="_blank">{{ harry.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

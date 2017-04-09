@@ -16,7 +16,7 @@ img {
   max-width: 100%;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Oswald', sans-serif;
   letter-spacing: 4px;
   text-transform: uppercase;
@@ -36,6 +36,10 @@ a {
   background-size: cover;
 }
 
+.title {
+  margin-bottom: 15px;
+}
+
 /* --- Header ---*/
 header nav a {
   text-decoration: none;
@@ -51,8 +55,86 @@ nav {
 
 }
 
+/*This is Dan's awesome hamburger menu*/
+
+.burger-button {
+  position:absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 9999999999;
+  padding: 8px;
+}
+/*this is where you can change the color of the buttons*/
+.burger-button span{
+  width: 25px;
+  border: 2px solid #2c3e50;
+  display: block;
+  border-radius: 22px;
+  transition: 1s;
+}
+.burger-button.active span{
+  border: 2px solid #ffffff;
+}
+
+.burger-top, .burger-bottom{
+  position: absolute;
+}
+
+.burger-top{
+  top: 02px;
+}
+
+.burger-bottom{
+  bottom: 02px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.burger-button.active .burger-top{
+  position: absolute;
+  top: 8px;
+  transform: rotateZ(45deg);
+}
+
+.burger-button.active .burger-middle{
+  transform: rotateZ(270deg);
+  border-color: rgba(0,0,0,0)
+}
+
+/* make sure this has the same bottom as the burger button has padding*/
+
+.burger-button.active .burger-bottom{
+  position: absolute;
+  bottom: 8px;
+  transform: rotateZ(-45deg);
+}
+
+
+.burger-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    background-color: #2c3e50;
+    padding:5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+    z-index: 99999999;
+}
+
+.burger-menu a {
+  text-decoration: none;
+  padding: 15px 11px;
+  color: #ffffff;
+  display:block;
+  padding:5px 15px;
+  text-align:center;
+  white-space:nowrap;
+}
+
+.burger-menu li{list-style:none}
+
 .top-banner {
-  background-image: url('../images/daffbannerimage.jpg');
+  background-image: url('../images/Daffbannerimage.png');
   min-height: 100vh;
 
 }
@@ -118,9 +200,19 @@ nav {
 }
 
 .read {
-  color: black;
   font-style: italic;
-  text-decoration: underline;
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: white;
+  font-size: .875rem;
+  background-color: black;
+}
+
+.read:hover {
+  transition: background-color .15s,color .15s,border-color .15s;
+  order: 1px solid #000;
 }
 /* --- Categories Section ---*/
 
@@ -176,19 +268,11 @@ div .category:hover {
 }
 
 /* --- Blogpost Layout---*/
-.blogpost-title {
-  text-align: center;
-  font-family: 'Oswald', sans-serif;
-  letter-spacing: 4px;
-  text-transform: uppercase;
 
-}
-
-.blog-text {
-  max-width: 750px;
-  margin-left: auto;
-  margin-right: auto;
-
+.post-text {
+  max-width: 900px;
+  margin: 30px auto;
+  line-height: 1.5rem;
 }
 
 .date {
@@ -196,7 +280,7 @@ div .category:hover {
   padding-top: 10px;
 }
 
-.blogpost-line {
+.post-horizontal-line {
   border-top: 1px solid lightgrey;
   width: 619px;
   margin-top: 20px;
@@ -218,23 +302,51 @@ div .category:hover {
 }
 
 .whylove {
-  border: 1px solid lightgrey;
-  margin: 40px 100px;
+  margin: 80px 191.094px;
+
 }
 
 .categorypic {
   min-height: 33vw;
-  margin: auto;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   display: table;
   width: 70%;
 
 }
 
+/*-- Brand Layout ---*/
+.brand-header-section {
+  width: 100%;
+  max-height: 65vh;
+
+}
+
+.brand-details-section {
+  line-height: 2rem;
+  margin-top: 20px;
+}
+
 /* --- Media Query ---*/
+
+[class*=grid]>:not([class*=_md-0]).mob-show {
+  display: none;
+}
+
 @media (max-width: 48em){
   .top-banner {
     display: none;
+  }
+
+  .mob-margin {
+    margin: 80px 80px;
+
+  }
+
+  .mob-hide {
+    display: none;
+  }
+  [class*=grid]>:not([class*=_md-0]).mob-show {
+    display: inline-block;
   }
 
 }

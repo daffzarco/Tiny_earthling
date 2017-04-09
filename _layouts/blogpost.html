@@ -3,11 +3,11 @@ layout: default
 ---
 <!-- Blogpost Title  -->
 <section>
-  <h1 class="blogpost-title">{{page.title}}</h1>
+  <h1 class="center">{{page.title}}</h1>
 </section>
 <!-- Blogpost Date  -->
 <section>
-  <div class="blogpost-line date">
+  <div class="post-horizontal-line date">
     {{ page.date | date: '%B %d, %Y' }}
   </div>
 </section>
@@ -27,7 +27,7 @@ layout: default
   {% endif %}
 
   <!-- Blog Text  -->
-    <div class="blog-text col">
+    <div class="post-text col">
     {{content}}
       {% if page.eatingplaces == true %}
         <div class="grid">

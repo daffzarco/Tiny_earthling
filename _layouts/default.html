@@ -27,7 +27,7 @@
     </div>
     <div class="col-7_md-12">
       <div>
-        <nav class="text-center">
+        <nav class="text-center mob-hide">
           <a href="About">About /</a>
           <a href="Blog">blog /</a>
           <a href="lifestyle.html">Lifestyle /</a>
@@ -35,9 +35,41 @@
           <a href="travel.html">Travel /</a>
           <a href="Inspiration"> Inspiration </a>
         </nav>
+
+    <!---This is the hamburger menu--->
+        <nav class="mob-show">
+        <div class="burger-button">
+            <span class="burger-top"></span>
+            <span class="burger-middle"></span>
+            <span class="burger-bottom"></span>
+        </div>
+         <div class="burger-menu">
+          <ul>
+            <li>
+              <a href="About">About /</a>
+            </li>
+            <li>
+              <a href="Blog">blog /</a>
+            </li>
+            <li>
+              <a href="lifestyle.html">Lifestyle /</a>
+            </li>
+            <li>
+            <a href="Vegan Eats">Vegan Eats /</a>
+            </li>
+            <li>
+              <a href="travel.html">Travel /</a>
+            </li>
+            <li>
+              <a href="Inspiration"> Inspiration </a>
+            </li>
+          <ul>
+        </div>
+      </nav>
       </div>
     </div>
   </header>
+
 
   {{content}}
 
@@ -71,5 +103,8 @@
       <p class="copyright center"> website by Tiny Earthling | ©tinyearthling </p>
     </div>
   </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src=/js/script.js></script>
 </body>
 </html>
