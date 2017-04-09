@@ -1,0 +1,54 @@
+---
+layout: default
+---
+<!-- Blogpost Title  -->
+<section>
+  <h1 class="blogpost-title">{{page.title}}</h1>
+</section>
+<!-- Blogpost Date  -->
+<section>
+  <div class="blogpost-line date">
+    {{ page.date | date: '%B %d, %Y' }}
+  </div>
+</section>
+<!-- Banner Image  -->
+<div class="col">
+  <img src="{{page.pic_path}}" alt="{{page.pic_des}}" />
+</div>
+<!-- Eating Places / True -->
+<section class="grid">
+  {% if page.eatingplaces == true %}
+  <div class="col-3">
+    <h3>Rating {{page.rating}}</h3>
+    <h3>Price {{page.price}}</h3>
+    <h3>Hours {{page.hour}}</h3>
+    <h3>Location {{page.location}}</h3>
+  </div>
+  {% endif %}
+
+  <!-- Blog Text  -->
+    <div class="blog-text col">
+    {{content}}
+      {% if page.eatingplaces == true %}
+        <div class="grid">
+          <h3 class="col-12">Location & Nearby Places</h3>
+          <div class="col-3">
+            {{page.map}}
+          </div>
+          <div class="col-9 grid">
+            {% for blogpost in site.post %}
+                {% if blogpost.url == page.url %}
+                {% else %}
+                  {% if blogpost.city == page.city %}
+                    <a href="{{blogpost.url}}" class="col-2">
+                      <img src="{{blogpost.pic_path}}" alt="{{blogpost.pic_des}}" />
+                      <h4>{{blogpost.title}}</h4>
+                  </a>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

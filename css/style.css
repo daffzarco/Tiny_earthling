@@ -1,0 +1,247 @@
+/* --- CSS Reset ---*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border:1px solid transparent;
+}
+
+/* --- General Styles ---*/
+body {
+  font-family: 'Old Standard TT', serif;
+  line-height: 1.4em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.background-image {
+  background-position: center;
+  background-size: cover;
+}
+
+/* --- Header ---*/
+header nav a {
+  text-decoration: none;
+  color: black;
+  border: none;
+  text-transform: lowercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+nav {
+  text-align: left;
+
+}
+
+.top-banner {
+  background-image: url('../images/daffbannerimage.jpg');
+  min-height: 100vh;
+
+}
+
+/* --- Footer ---*/
+.footer-blog {
+  margin: 6% 15%;
+}
+
+.horizontal-line {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  margin:15px 50px;
+}
+
+.instagram {
+  border-top: none;
+}
+
+.instagram-text {
+  margin-bottom: 40px
+}
+
+.icons {
+  margin: 20px;
+}
+
+.copyright {
+  width: 100%;
+  margin: 10px;
+  font-size: small;
+  font-style: italic;
+}
+
+/* --- Featured Post Section ---*/
+.featured-post {
+  min-height: 80vh;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 50%;
+  text-align: -webkit-center;
+
+}
+
+.featured-title {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+
+.featured-text {
+  padding: 15px 45px 5px 45px;
+  text-align: justify;
+}
+
+.featured-post-love {
+  margin-bottom: 20%;
+  padding-right: 45px;
+}
+
+.featured-letter {
+  margin: 10px 40px 0px 40px;
+
+}
+
+.read {
+  color: black;
+  font-style: italic;
+  text-decoration: underline;
+}
+/* --- Categories Section ---*/
+
+.category-border {
+  padding: 0 80px 0 80px;
+
+}
+
+div .category {
+  min-height: 33vw;
+  margin: 0 2vw;
+  display: table;
+  width: 80%;
+  text-align: -webkit-center;
+}
+
+div .category:hover {
+  filter: opacity(80%);
+}
+
+.category-text {
+  color: white;
+  display: table-cell;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  line-height: initial;
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+.category-one {
+  background-image: url('../images/lifestyle.jpg');
+  }
+
+.category-two {
+  background-image: url('../images/travel.jpg');
+}
+
+.category-three {
+  background-image: url('../images/eatingcopy.jpg');
+}
+
+/* --- Conscious LIfestyle Text Section ---*/
+.conscious-title {
+  margin-bottom: 15px;
+}
+
+.conscious-text {
+  background-color: rgba(255, 205, 210, 0.27);
+  margin: 2% 15%;
+  padding: 8%;
+}
+
+/* --- Blogpost Layout---*/
+.blogpost-title {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+
+}
+
+.blog-text {
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.date {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.blogpost-line {
+  border-top: 1px solid lightgrey;
+  width: 619px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* --- Category HTML ---*/
+.category-banner {
+  width: 100%;
+  max-height: 65vh;
+
+}
+
+.category-header {
+  color: white;
+  padding: 32.5vh 0vw;
+
+}
+
+.whylove {
+  border: 1px solid lightgrey;
+  margin: 40px 100px;
+}
+
+.categorypic {
+  min-height: 33vw;
+  margin: auto;
+  margin-bottom: 20px;
+  display: table;
+  width: 70%;
+
+}
+
+/* --- Media Query ---*/
+@media (max-width: 48em){
+  .top-banner {
+    display: none;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  .text-center {
+    text-align: center;
+  }
+
+}

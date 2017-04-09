@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<!-- Category Banner  -->
+<section>
+  <div class=" background-image category-banner" style="background-image: url({{page.pic_path}})">
+    <h1 class="category-header center">{{page.category}}</h1>
+  </div>
+</section>
+
+<section class="center whylove">
+  <h2>Why I love {{page.categorywhy}}</h2>
+  <p>{{page.whylove}}
+  </p>
+</section>
+
+<section class="grid center">
+  {% for post in site.posts %}
+    {% if post.category == page.category %}
+      <a href="{{post.url}}" class="col">
+        <div class="background-image categorypic" style="background-image: url({{post.pic_path}})">
+        </div>
+        <h3 class="featured-title">{{post.title}}</h3>
+        <p>
+          Read on
+        </p>
+      </a>
+   {% endif %}
+  {% endfor %}
+</section>
+
+<section class="grid">
+  <h2>{{page.top}}</h2> bob
+  {% for brand in site.brands %}
+    {% if brand.category == page.category %}
+      <a href="{{brand.external-link}}" class="col-3">
+        <div class="categorypic background-image" style="background-image: url({{brand.pic_path}})">
+        </div>
+        <h3>{{brand.title}}</h3>
+        <p>
+          Read on
+        </p>
+      </a>
+   {% endif %}
+  {% endfor %}
+ </div>
+</section>
+
+
+{{content}}
