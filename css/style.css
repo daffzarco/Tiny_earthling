@@ -344,15 +344,27 @@ div .category:hover {
 
 }
 
+.brand-header-title {
+  margin: 20px;
+
+}
+
 .brand-details-section {
   line-height: 2rem;
   margin: 20px 10vw;
   border-top: 1px solid black;
+
 }
 
 .brand-details-pic-image {
   height: 15rem;
+
 }
+
+.check-website-box {
+  margin-top: 20px
+}
+
 
 /* --- Media Query ---*/
 
