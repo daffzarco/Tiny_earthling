@@ -2,31 +2,35 @@
 layout: default
 ---
 
-<section class="brand-header-section" style="background-image=url('{{ page.pic_path }}')">
+<section class="brand-header-section background-image" style="background-image: url('{{ page.pic_path }}'); background-position-y: {{page.header-y}}">
     <h1 class="center">{{ page.title }}</h1>
+
+    <div class="post-horizontal-line date">
+        {{ page.date | date: '%B %d, %Y' }}
+    </div>
 </section>
-<div class="post-horizontal-line date">
-    {{ page.date | date: '%B %d, %Y' }}
-</div>
+
 <section class="brand-blurb-section post-text">
 
 {{content}}
 
 </section>
+
 <section class="brand-details-section center">
-  <p>
-    <a href="http://{{page.website}}"> Click here to check the {{page.name}} website.</a>
-  </p>
   <div>
     <h3>
       My picks
     </h3>
-    <ul>
+    <ul class="grid">
       {% for harry in page.picks %}
-        <li>
+        <li class="col-4">
           <a href="{{ harry.url }}" target="_blank">{{ harry.name }}</a>
-      </li>
+          <div class="brand-details-pic-image background-image" style="background-image: url({{harry.picture}});"
+        </li>
       {% endfor %}
     </ul>
   </div>
+  <p>
+    <a href="http://{{page.website}}"> Click here to check the {{page.name}} website.</a>
+  </p>
 </section>

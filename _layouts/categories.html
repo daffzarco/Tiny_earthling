@@ -14,35 +14,26 @@ layout: default
   </p>
 </section>
 
-<section class="grid center">
-  {% for post in site.posts %}
-    {% if post.category == page.category %}
-      <a href="{{post.url}}" class="col">
-        <div class="background-image categorypic" style="background-image: url({{post.pic_path}})">
-        </div>
-        <h4 class="featured-title">{{post.title}}</h4>
-        <button class="read" type="button center">Read More</button>
-      </a>
-   {% endif %}
-  {% endfor %}
+<section class="content-listing-section center">
+  <h2>Latest {{page.category}} posts</h2>
+  <div class="grid-equalHeight">
+    {% for post in site.posts %}
+      {% if post.category == page.category %}
+        {% include blog-preview.html post=post %}
+     {% endif %}
+    {% endfor %}
+  </div>
 </section>
 
-<div>
+<section class="content-listing-section center">
   <h2>{{page.top}}</h2>
-</div>
-
-<section class="grid">
+  <div class="grid-equalHeight">
   {% for brand in site.brands %}
     {% if brand.category == page.category %}
-      <a href="{{brand.url}}" class="col">
-        <div class="categorypic background-image" style="background-image: url({{brand.pic_path}})">
-        </div>
-        <h3 class="featured-title center">{{brand.title}}</h3>
-        <button class="read" type="button center">Read More</button>
-      </a>
+      {% include brand-preview.html brand=brand %}
    {% endif %}
   {% endfor %}
- </div>
+  </div>
 </section>
 
 

@@ -3,38 +3,27 @@ layout: default
 dummy: test
 ---
   <!--- Banner Image --->
-  <section class="top-banner background-image mob-hide">
+  <section class="top-banner background-image">
   </section>
   <!--- Featured Post --->
-  <section class="grid-middle">
-    <div class="col-6_sm-12">
-      {% for post in site.posts limit:1 %}
-        <a href="{{post.url}}">
-          <div class="featured-post background-image" style="background-image:url('{{post.pic_path}}')">
-          </div>
-          <div>
-            <h2 class="featured-title center">
-              {{post.title}}</h2>
-            <p class="featured-text"> {{ post.excerpt | truncatewords: 30 | remove: '<p>' | remove: '</p>' }}
-            </p>
-          </div>
-          <button class="read" type="button center">Read More</button>
-        </a>
-      {% endfor %}
-    </div>
-    <div class="col-6_sm-12">
-      <div class="featured-post-love center">
-        <h2>Love Letter to you</h2>
-        <p class="featured-letter">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  <section class="conscious-text">
+      <div class="center">
+        <h2>Love Letter to Simba</h2>
+        <p>
+          Simb... Simba...Simba... I don't even know where to start. My heart is full of gratitude and love for the time you spent with me. Mucho gracias for staying up last night and helping me out with my buggie bugs and styling me up. Thank you for teaching me that div is life and I will carry it with me till the end of time. Keep on div-ing... Forever and always, your favourite flower
         </p>
       </div>
-    </div>
+  </section>
+  <section class="featured-post-section">
+    <h2>Latest Rambling</h2>
+    {% for post in site.posts limit:1 %}
+      {% include blog-preview-wide.html post=post %}
+    {% endfor %}
   </section>
   <!-- Categories --->
   <section class="category-border">
     <div class="grid">
-      <div class="col-4_sm-12">
+      <div class="col-4_xs-12">
         <a href="lifestyle.html">
           <div class="category-one category background-image">
             <h3 class="category-text">
@@ -46,7 +35,7 @@ dummy: test
           </div>
         </a>
       </div>
-      <div class="col-4_sm-12">
+      <div class="col-4_xs-12">
         <a href="travel.html">
           <div class="category-two category background-image">
             <h3 class="category-text center">
@@ -58,7 +47,7 @@ dummy: test
           </div>
         </a>
       </div>
-      <div class="col-4_sm-12">
+      <div class="col-4_xs-12">
         <a href="Conscious Eating">
           <div class="category-three category background-image">
             <h3 class="category-text">
