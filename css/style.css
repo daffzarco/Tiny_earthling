@@ -287,7 +287,7 @@ div .category:hover {
   margin-right: auto;
 }
 
-/* --- Category HTML ---*/
+/* --- Categories ---*/
 .category-banner {
   width: 100%;
   max-height: 65vh;
@@ -396,10 +396,4 @@ div .category:hover {
     display: none;
   }
 
-}
-
-.journey-post {
-  width: 100%;
-  max-height: 65vh;
-  display: inline;
 }

@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- Category Banner  -->
 <section>
-  <div class=" background-image category-banner" style="background-image: url({{page.pic_path}})">
+  <div class="background-image category-banner" style="background-image: url({{page.pic_path}})">
     <h1 class="category-header center">{{page.category}}</h1>
   </div>
 </section>
@@ -34,7 +34,11 @@ layout: default
    {% endif %}
   {% endfor %}
   </div>
+  <div class="grid-equalHeight">
+  {% for travel in site.travels %}
+    {% if travel.category == page.category %}
+      {% include travel-preview.html travel=travel %}
+   {% endif %}
+  {% endfor %}
+  </div>
 </section>
-
-
-{{content}}

@@ -2,7 +2,8 @@
 collections:
   brands:
     output: true
-
+  travels:
+    output: true
 
 
 

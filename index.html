@@ -1,6 +1,5 @@
 ---
 layout: default
-dummy: test
 ---
   <!--- Banner Image --->
   <section class="top-banner background-image">
@@ -14,9 +13,9 @@ dummy: test
         </p>
       </div>
   </section>
-  <section class="featured-post-section">
-    <h2>Latest Rambling</h2>
-    {% for post in site.posts limit:1 %}
+  <section class="featured-post-section grid">
+    <h2 class="col-2">Latest Rambling</h2>
+    {% for post in site.posts limit:2 %}
       {% include blog-preview-wide.html post=post %}
     {% endfor %}
   </section>

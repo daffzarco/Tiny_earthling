@@ -3,10 +3,23 @@ layout: default
 ---
 
 <section class="brand-header-section background-image" style="background-image: url('{{ page.pic_path }}'); background-position-y: {{page.header-y}}">
+    <h4 class="center">{{page.continent}}</h4>
     <h1 class="center">{{ page.title }}</h1>
     <div class="post-horizontal-line">
     </div>
 </section>
+
+<h2 class="center"> Why I love {{page.title}}</h2>
+
+<div class="grid-equalHeight">
+{% for travel in site.travels %}
+  {% if travel.category == page.category %}
+    {% include blog-preview-wide.html travel=travel %}
+ {% endif %}
+{% endfor %}
+</div>
+
+<h2>Discover {{page.title}} by Interests</h2>
 
 <section class="post-text">
 
