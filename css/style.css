@@ -53,6 +53,10 @@ li {
   border: none;
 }
 
+.justify {
+  text-align: justify;
+}
+
 /* --- Header ---*/
 header .logo img {
   height: 70px;
@@ -155,6 +159,41 @@ nav {
   min-height: 100vh;
 
 }
+/* --- Back to the Top ---*/
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(http://codyhouse.co/demo/back-to-top/img/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+.cd-top:hover {
+  background-color: black;
+  opacity: 1;
+}
 
 /* --- Footer ---*/
 .footer-blog {
@@ -191,6 +230,7 @@ nav {
   padding: 0 70px;
   margin-bottom: 40px;
 }
+
 .read {
   font-style: italic;
   display: block;
@@ -287,10 +327,10 @@ div .category:hover {
   margin-right: auto;
 }
 
-/* --- Categories ---*/
+/* --- Categories Layout ---*/
 .category-banner {
   width: 100%;
-  max-height: 65vh;
+  min-height: 65vh;
 
 }
 
@@ -313,6 +353,8 @@ div .category:hover {
 
 }
 
+/*-- Content Box ---*/
+
 .content-listing-section {
   padding: 2% 5%;
 }
@@ -327,13 +369,9 @@ div .category:hover {
 
 }
 
-.content-preview-box:hover {
-
-}
 .content-preview-box-words {
   padding: 0 0.5rem;
 }
-
 
 /*-- Brand Layout ---*/
 .brand-header-section {
@@ -364,6 +402,83 @@ div .category:hover {
 .check-website-box {
   margin-top: 20px
 }
+
+/* -- About Page ---*/
+
+.about-banner {
+  background-image: url(../images/te0251.jpg);
+}
+
+.quote {
+  line-height: 1.9;
+  font-size: 2rem;
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 80px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.quote-intro {
+  font-weight: 200;
+  font-size: 1.4rem;
+  line-height: 1.9;
+  padding-top: 20px;
+}
+
+.fun-box {
+  background-color: rgba(255, 205, 210, 0.58);
+
+}
+
+strong {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+}
+
+.fact-box {
+  padding: 4%;
+
+}
+
+.bit {
+  margin: 10px 0;
+
+
+}
+
+.no-border {
+  border: none;
+
+}
+
+.about-image {
+  display: inline-block;
+  padding: 10px 150px;
+
+}
+
+/* --- Contact Page ---*/
+.title {
+  font-size: 14px;
+}
+.field-element {
+  display: block;
+  width: 60%;
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  font-family: 'Old Standard TT', serif;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.message-height {
+  height: 20vh;
+}
+
+
 
 
 /* --- Media Query ---*/
