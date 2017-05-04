@@ -191,7 +191,7 @@ nav {
 }
 
 .cd-top:hover {
-  background-color: black;
+  background-color: rgba(232, 98, 86, 0.92);
   opacity: 1;
 }
 
@@ -459,6 +459,18 @@ strong {
 }
 
 /* --- Contact Page ---*/
+.contact-image {
+  padding: 0 20px 0 200px;
+}
+
+.contact {
+  text-align: left;
+}
+
+.contact-text {
+  margin: 40px 0 60px 0;
+
+}
 .title {
   font-size: 14px;
 }
@@ -477,6 +489,12 @@ strong {
 .message-height {
   height: 20vh;
 }
+
+.submit-button {
+  display: initial;
+}
+
+
 
 
 

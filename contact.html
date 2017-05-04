@@ -1,28 +1,36 @@
 ---
 layout: default
 ---
-  <section class="grid">
-    <div class="col-6">
+  <section class="grid-center">
+    <div class="col-6 contact-image">
       <img src="../images/te0210.jpg" alt="Daffodil walking through trees" />
     </div>
     <div class="col-6">
+      <div class="contact">
+        <h2 class="contact">Contact</h2>
+        <p class="contact-text">
+          <strong>Instagram:</strong> @thetinyearthling</br>
+          <strong>Email:</strong>
+           hello@tinyearthling.com
+        </p>
+      </div>
       <form class="" method="POST" action="http://formspree.io/daffodil.zarco@hotmail.com">
-      <div>
-        <label class="title" for="name">Name *</label>
-        <input class="field-element" type="text" name="name" id="name" placeholder="First + Last Name" />
-      </div>
-      <div>
-        <label class="title" for="email">Email Address *</label>
-        <input class="field-element" type="email" name="email" id="email"/>
-      </div>
-      <div>
-        <label class="title" for="message">Message *</label>
-        <textarea class="field-element message-height" name="message" id="message"></textarea>
-      </div>
-      <div>
-        <button class="read" type="submit">Submit</button>
-        <input type="text" name="_gotcha" style="display:none" />
-      </div>
+        <div>
+          <label class="title" for="name">Name *</label>
+          <input class="field-element" type="text" name="name" id="name" placeholder="First + Last Name" />
+        </div>
+        <div>
+          <label class="title" for="email">Email Address *</label>
+          <input class="field-element" type="email" name="email" id="email"/>
+        </div>
+        <div>
+          <label class="title" for="message">Message *</label>
+          <textarea class="field-element message-height" name="message" id="message"></textarea>
+        </div>
+        <div>
+          <button class="read submit-button" type="submit">Submit</button>
+          <input type="text" name="_gotcha" style="display:none" />
+        </div>
       </form>
     </div>
   </section>
