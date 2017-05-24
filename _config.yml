@@ -4,6 +4,8 @@ collections:
     output: true
   travels:
     output: true
+  foods:
+    output: true
 
 
 

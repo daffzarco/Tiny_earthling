@@ -3,7 +3,7 @@ layout: default
 ---
 <!-- Category Banner  -->
 <section>
-  <div class="background-image category-banner" style="background-image: url({{page.pic_path}})">
+  <div class="background-image category-banner" style="background-image: url('{{ page.pic_path }}'); background-position-y: {{page.header-y}}">
     <h1 class="category-header center">{{page.category}}</h1>
   </div>
 </section>
@@ -44,9 +44,9 @@ layout: default
   {% endfor %}
   </div>
   <div class="grid-equalHeight">
-  {% for food in site.food %}
+  {% for food in site.foods %}
     {% if food.category == page.category %}
-      {% include brand-preview.html food=food %}
+      {% include blog-preview.html food=food %}
    {% endif %}
   {% endfor %}
   </div>

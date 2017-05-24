@@ -1,9 +1,18 @@
 ---
 layout: default
 ---
-<section class="brand-header-section background-image" style="background-image: url('{{ page.pic_path }}'); background-position-y: {{page.header-y}}">
-    <h1 class="center">{{ page.title }}</h1>
-    <div class="post-horizontal-line">
-    </div>
-    <h4 class="center">{{page.continent}}</h4>
-</section>
+  <section class="brand-header-section background-image" style="background-image: url('{{ page.pic_path }}'); background-position-y: {{page.header-y}}">
+      <h1 class="center">{{ page.title }}</h1>
+      <div class="post-horizontal-line">
+      </div>
+      <h4 class="center">{{page.continent}}</h4>
+  </section>
+
+  <div class="post-text">
+
+  {{content}}
+
+  </div>
+
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <div class="addthis_inline_share_toolbox center"></div>

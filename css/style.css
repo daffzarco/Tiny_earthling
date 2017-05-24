@@ -41,6 +41,14 @@ li {
   list-style: none;
 }
 
+p {
+  margin-bottom: 1rem;
+}
+
+.paragraph-margin {
+  margin: 30px 0;
+}
+
 .center {
   text-align: center;
 }
@@ -62,8 +70,9 @@ li {
   text-align: left;
 }
 
-.newparagraph {
-  margin: 10px 0px;
+.links {
+  font-weight: 800;
+  font-style: italic;
 }
 
 /* --- Header ---*/
@@ -71,6 +80,7 @@ header .logo img {
   height: 70px;
 
 }
+
 header nav a {
   text-decoration: none;
   color: black;
@@ -82,7 +92,6 @@ header nav a {
 
 nav {
   text-align: left;
-
 }
 
 /*This is Dan's awesome hamburger menu*/
@@ -166,8 +175,8 @@ nav {
 .top-banner {
   background-image: url('../images/Daffbannerimage.png');
   min-height: 100vh;
-
 }
+
 /* --- Back to the Top ---*/
 
 .cd-top {
@@ -189,11 +198,13 @@ nav {
   -moz-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .cd-top.cd-is-visible {
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
 }
+
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
@@ -264,7 +275,6 @@ nav {
 
 .category-border {
   padding: 0 80px 0 80px;
-
 }
 
 div .category {
@@ -291,15 +301,16 @@ div .category:hover {
 }
 
 .category-one {
-  background-image: url('../images/lifestyle.jpg');
+  background-image: url('../images/IMG_5666.jpg');
   }
 
 .category-two {
-  background-image: url('../images/travel.jpg');
+  background-image: url('../images/DSC04218.jpg');
+  background-position:
 }
 
 .category-three {
-  background-image: url('../images/eatingcopy.jpg');
+  background-image: url('../images/IMG_3572.jpg');
 }
 
 /* --- Conscious LIfestyle Text Section ---*/
@@ -328,7 +339,7 @@ div .category:hover {
 .post-text {
   max-width: 900px;
   margin: 30px auto;
-  text-align: center;
+  text-align: left;
   padding: 0 5%;
   line-height: 2;
 }
@@ -350,19 +361,16 @@ div .category:hover {
 .category-banner {
   width: 100%;
   min-height: 65vh;
-
 }
 
 .category-header {
   color: white;
   padding: 32.5vh 0vw;
   font-size: 35px;
-
 }
 
 .whylove {
   margin: 80px 191.094px;
-
 }
 
 .categorypic {
@@ -370,7 +378,6 @@ div .category:hover {
   margin: 0 0 20px 0;
   display: table;
   width: 100%;
-
 }
 
 /*-- Content Box ---*/
@@ -381,12 +388,10 @@ div .category:hover {
 
 .content-preview {
   padding: 0 0.5rem;
-
 }
 
 .content-preview-box {
   border: 1px solid #efefef;
-
 }
 
 .content-preview-box-words {
@@ -399,24 +404,20 @@ div .category:hover {
   min-height: 65vh;
   padding: 40vh 20vw 5vh 20vw;
   color: white;
-
 }
 
 .brand-header-title {
   margin: 20px;
-
 }
 
 .brand-details-section {
   line-height: 2rem;
   margin: 20px 10vw;
   border-top: 1px solid black;
-
 }
 
 .brand-details-pic-image {
   height: 15rem;
-
 }
 
 .check-website-box {
@@ -458,24 +459,20 @@ strong {
 
 .fact-box {
   padding: 4%;
-
 }
 
 .bit {
-  margin: 10px 0;
-
+  margin: 20px 0;
 
 }
 
 .no-border {
   border: none;
-
 }
 
 .about-image {
   display: inline-block;
   padding: 10px 150px;
-
 }
 
 /* --- Contact Page ---*/
@@ -489,7 +486,6 @@ strong {
 
 .contact-text {
   margin: 40px 0 60px 0;
-
 }
 
 .title {
