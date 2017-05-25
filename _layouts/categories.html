@@ -46,7 +46,7 @@ layout: default
   <div class="grid-equalHeight">
   {% for food in site.foods %}
     {% if food.category == page.category %}
-      {% include blog-preview.html food=food %}
+      {% include food-preview.html food=food %}
    {% endif %}
   {% endfor %}
   </div>

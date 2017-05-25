@@ -75,6 +75,9 @@ p {
   font-style: italic;
 }
 
+.par-margin {
+   margin: 2rem 0;
+}
 /* --- Header ---*/
 header .logo img {
   height: 70px;
@@ -339,7 +342,7 @@ div .category:hover {
 .post-text {
   max-width: 900px;
   margin: 30px auto;
-  text-align: left;
+  text-align: justify;
   padding: 0 5%;
   line-height: 2;
 }
@@ -472,7 +475,10 @@ strong {
 
 .about-image {
   display: inline-block;
+  min-height: 65vh;
   padding: 10px 150px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* --- Contact Page ---*/
