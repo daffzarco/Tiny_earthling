@@ -78,6 +78,7 @@ p {
 .par-margin {
    margin: 2rem 0;
 }
+
 /* --- Header ---*/
 header .logo img {
   height: 70px;
@@ -329,12 +330,8 @@ div .category:hover {
 
 /* --- Home Page ---*/
 
-.magic-text {
-  font-size: 2rem;
-}
-
 .with-love {
-  padding-top: 2rem;
+  margin-top: 40px;
 }
 
 /* --- Blogpost Layout---*/
@@ -475,10 +472,10 @@ strong {
 
 .about-image {
   display: inline-block;
-  min-height: 65vh;
-  padding: 10px 150px;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: 20vh;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid black;
 }
 
 /* --- Contact Page ---*/
