@@ -521,11 +521,27 @@ strong {
   display: none;
 }
 
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+    .mob-date {
+      margin: auto -200px;
+    }
+
+}
+
 @media (max-width: 32em){
   .top-banner {
     background-position: -60%;
   }
 
+  .mob-date {
+    margin: auto -200px
+  }
+  
   .mob-margin {
     margin: 80px 80px;
 
@@ -551,6 +567,10 @@ strong {
 
   .mob-margin {
     margin: 80px 80px;
+  }
+
+  .mob-date {
+    margin: auto -110px;
   }
 
 }
