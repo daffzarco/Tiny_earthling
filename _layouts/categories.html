@@ -20,7 +20,7 @@ layout: default
   <div class="grid-equalHeight">
     {% for post in site.posts %}
       {% if post.category == page.category %}
-        {% include blog-preview.html post=post %}
+        {% include blog-preview-wide.html post=post %}
      {% endif %}
     {% endfor %}
   </div>
@@ -31,22 +31,22 @@ layout: default
   <h2>{{page.top}}</h2>
   <div class="grid-equalHeight">
   {% for brand in site.brands %}
-    {% if brand.category == page.category %}
-      {% include brand-preview.html brand=brand %}
-   {% endif %}
+     {% if brand.category == page.category %}
+      {% include brand-preview-wide.html brand=brand %}
+    {% endif %}
   {% endfor %}
   </div>
   <div class="grid-equalHeight">
   {% for travel in site.travels %}
-    {% if travel.category == page.category %}
-      {% include travel-preview.html travel=travel %}
-   {% endif %}
+     {% if travel.category == page.category %}
+      {% include travel-preview-wide.html travel=travel %}
+    {% endif %}
   {% endfor %}
   </div>
   <div class="grid-equalHeight">
   {% for food in site.foods %}
     {% if food.category == page.category %}
-      {% include food-preview.html food=food %}
+      {% include food-preview-wide.html food=food %}
    {% endif %}
   {% endfor %}
   </div>

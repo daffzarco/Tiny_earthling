@@ -1,0 +1,14 @@
+<a href="{{food.url}}" class="content-preview-box grid">
+  <div class="background-image col-5_xs-12_sm-12" style="background-image: url({{food.pic_path}})">
+  </div>
+  <div class="center col-7_xs-12_sm-12">
+    <div class="featured-text">
+      <h4 class="featured-title">{{food.title}}</h4>
+      <p class="date"> {{ food.date | date: '%B %d, %Y' }}</p>
+      <p>
+        {{food.snippet}}
+      </p>
+      <button class="read" type="button center">Read More</button>
+    </div>
+  </div>
+</a>
