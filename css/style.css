@@ -370,7 +370,7 @@ div .category:hover {
 }
 
 .whylove {
-  margin: 80px 191.094px;
+  margin: 80px 191.094px 60px 191.094px;
 }
 
 .categorypic {
@@ -471,11 +471,10 @@ strong {
 }
 
 .about-image {
-  display: inline-block;
+  display: block;
+  margin: 10px auto;
   min-height: 20vh;
   text-align: center;
-  vertical-align: middle;
-  border: 1px solid black;
 }
 
 /* --- Contact Page ---*/
