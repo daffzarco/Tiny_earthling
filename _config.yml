@@ -1,4 +1,6 @@
 
+google_analytics_key: UA-100031364-1
+
 collections:
   brands:
     output: true

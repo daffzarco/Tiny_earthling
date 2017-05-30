@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border:1px solid transparent;
 }
-
 
 .col, [class*=col-] {
   padding: 0;
@@ -541,7 +539,7 @@ strong {
   .mob-date {
     margin: auto -200px
   }
-  
+
   .mob-margin {
     margin: 80px 80px;
 
