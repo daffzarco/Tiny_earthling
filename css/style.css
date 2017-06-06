@@ -532,6 +532,14 @@ strong {
 }
 
 @media (max-width: 32em){
+
+  .mob-category {
+      min-height: 40vw;
+      margin: 0 2vw;
+      display: table;
+      text-align: -webkit-center;
+  }
+
   .top-banner {
     background-position: -60%;
   }
@@ -555,6 +563,14 @@ strong {
 }
 
 @media (max-width: 1024px) {
+
+  .mob-category {
+      min-height: 40vw;
+      margin: 0 2vw;
+      display: table;
+      text-align: -webkit-center;
+  }
+
   .text-center {
     display: none;
   }
