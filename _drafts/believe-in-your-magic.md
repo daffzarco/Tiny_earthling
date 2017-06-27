@@ -9,11 +9,11 @@ pic_des: New York Roosevelt Island
 ---
 
 
-I am a big believer in gratitude and the power and magic that it brings into your life. When you say ‘thank you’ for something in your life, you get a nice little feeling in your body. Imagine if you had gratitude for everything in your life, this feeling would fill your whole entire body and shoot out into the universe and attract more magic back to you.&nbsp;
+I am a big believer in gratitude and the power and magic that it brings into your life. When you say ‘thank you’ for something in your life, you get a nice warm tingling feeling in your body. Imagine if you had gratitude for everything in your life! This feeling would fill your whole entire body and shoot out into the universe and attract more magic back to you.&nbsp;
 
-I’m going be start a series Be Magical and write a post once a fortnight on magic practices you can focus on to get the magic flowing in your everyday life. I believe that for us to see the true beauty of our planet and be active in making changes we need to start with us and see that we are magical. So let’s begin.&nbsp;
+I’m going be start a series 'Be Magical' and write a post once a fortnight on magic practices you can focus on to get the magic flowing in your everyday life. I believe that for us to see the true beauty of our planet and be active in making changes we need to start with us and see that we are magical. So let’s begin.&nbsp;
 
-Let’s begin with a really short Magic practice. Read through the complete Practice, then try it out in your own time.&nbsp;
+Let’s start off with a really short Magic practice. Read through the complete Practice, then try it out in your own time.&nbsp;
 
 &nbsp;All you need are 3 things:&nbsp;
 
