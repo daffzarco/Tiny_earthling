@@ -4,8 +4,8 @@ category: Conscious-Living
 title: Believe in Your Magic
 snippet: Those cliche quotes about what you put out is what you get, have a truth. Gratitude and practicing the magic is a powerful tool for making our life a much happier one. This is the first practice in my 'Be Magical' Series. 
 date: 'June 28, 2017'
-pic_path: /images/veggiemagic.JPG
-pic_des: Veganism is magic sign
+pic_path: /images/gratitude.JPG
+pic_des: New York Roosevelt Island
 ---
 
 
