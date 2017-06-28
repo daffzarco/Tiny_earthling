@@ -17,7 +17,7 @@ I’m going to start a series 'Be Magical' and write a post once a fortnight on 
 
 Let’s start off with a really short Magic practice. Read through the complete Practice, then try it out in your own time.
 
-&nbsp;All you need are 3 things:
+ All you need are 3 things:
 
 * A pen
 * Paper (you can get yourself a small little gratitude journal)
@@ -55,10 +55,10 @@ How do you feel? Do you feel happier? I always feel instantly happier after doin
 
 If you continue on this series with me, each and every practice, you'll find that it’ll be easier to find things to be grateful for. You can do this at any time of the day, I normally tend to do mine on the bus to work (even though it’s not quiet) but that comes with practice. Just to get you started, I recommend doing this practice in a quiet space preferably at the beginning of your day. Then when you’ve got the flow, you can do this anywhere, anytime — that’s the real beauty of it.
 
-There are going to be days when you wake up and you’re not feeling well emotionally, mentally or physically and it can be hard to find the magic. In all honestly when I have days like this I really get back down to my basics especially my breath and pulse -&nbsp; to not overwhelm my mental or emotional state my gratitude is super basic and normally relates to whatever visuals I have or material objects that are near me that are mine and that I’m grateful for.
+There are going to be days when you wake up and you’re not feeling well emotionally, mentally or physically and it can be hard to find the magic. In all honestly when I have days like this I really get back down to my basics especially my breath and pulse -  to not overwhelm my mental or emotional state my gratitude is super basic and normally relates to whatever visuals I have or material objects that are near me that are mine and that I’m grateful for.
 
- [The Magic](https://www.bookdepository.com/The-Magic-Rhond-Byrne/9781849838399?ref=grid-view&amp;qid=1498565298343&amp;sr=1-1) by Rhonda Byrne has been my magic guide in realizing the power of gratitude. If you’re interested in fast forwarding your magic, you should definitely grab a copy of this book.
+[The Magic](https://www.bookdepository.com/The-Magic-Rhond-Byrne/9781849838399?ref=grid-view&amp;qid=1498565298343&amp;sr=1-1) by Rhonda Byrne has been my magic guide in realizing the power of gratitude. If you’re interested in fast forwarding your magic, you should definitely grab a copy of this book.
 
-Otherwise, tune into my 'Be Magical' Series -These are magical practices that I’ve modified in my time of doing the magic that works for me.&nbsp;
+Otherwise, tune into my 'Be Magical' Series -These are magical practices that I’ve modified in my time of doing the magic that works for me.
 
 If you love this, share it with your friends and family and get the magic flowing!
