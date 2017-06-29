@@ -59,7 +59,7 @@ If you continue on this series with me, each and every practice, you'll find tha
 
 There are going to be days when you wake up and you’re not feeling well emotionally, mentally or physically and it can be hard to find the magic. In all honestly when I have days like this I really get back down to my basics especially my breath and pulse -&nbsp; to not overwhelm my mental or emotional state my gratitude is super basic and normally relates to whatever visuals I have or material objects that are near me that are mine and that I’m grateful for.
 
- [The Magic](https://www.bookdepository.com/The-Magic-Rhond-Byrne/9781849838399?ref=grid-view&amp;qid=1498565298343&amp;sr=1-1)by Rhonda Byrne has been my magic guide in realizing the power of gratitude. If you’re interested in fast forwarding your magic, you should definitely grab a copy of this book.
+[The Magic](https://www.bookdepository.com/The-Magic-Rhond-Byrne/9781849838399?ref=grid-view&amp;qid=1498565298343&amp;sr=1-1)&nbsp;by Rhonda Byrne has been my magic guide in realizing the power of gratitude. If you’re interested in fast forwarding your magic, you should definitely grab a copy of this book.
 
 Otherwise, tune into my 'Be Magical' Series -These are magical practices that I’ve modified in my time of doing the magic that works for me.
 
