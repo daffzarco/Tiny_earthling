@@ -1,9 +1,9 @@
 ---
 layout: blogpost
 category: Conscious-Lifestyle
-title: Be Magical #01 | Believe in Your Magic
+title: Be Magical
 snippet: "Those cliche quotes about what you put out is what you get, have a truth. Gratitude and practicing the magic is a powerful tool for making our life a much happier one. This is the first practice in my 'Be Magical' Series."
-date: 2017-06-29 00:00:00
+date: 2017-06-29 10:00:00
 pic_path: /images/gratitude.JPG
 pic_des: New York Roosevelt Island
 ---
@@ -23,7 +23,7 @@ Let’s start off with a really short Magic practice. Read through the complete 
 * Paper (you can get yourself a small little gratitude journal)
 * Quiet space
 
-<strong>Do Your Magic</strong>
+**Do Your Magic**
 
 When you’re ready, find a comfortable spot to sit. I like sitting cross legged on the ground, but fluff up some pillows for you back or pull a blanket over your legs, if that makes you comfortable. Make it your own!
 
