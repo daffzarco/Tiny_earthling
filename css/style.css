@@ -512,6 +512,11 @@ strong {
   display: initial;
 }
 
+/* --- Blog Posts ---*/
+
+.bullet-point {
+    list-style: circle;
+}
 
 /* --- Media Query ---*/
 
