@@ -25,7 +25,9 @@ So you’re going on your next adventure. Time to pack! At this point, you’re 
 
 **But most importantly:**
 
-***You spend less time in the morning figuring out what to wear and getting yourself out that door exploring.***
+###### You spend less time in the morning figuring out what to wear and getting yourself out that door exploring.
+
+&nbsp;
 
 The rule of 3 can be defined as choosing the best in 3’s. Simple right! 3 is a very powerful number - the holy trinity, rule of 3 in photography, it’s all around us and being used all the time. So without waffling on about religion and math, let get packing.
 
