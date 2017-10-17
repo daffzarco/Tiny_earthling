@@ -5,7 +5,7 @@ title: The Rule of 3's | Packing minimally
 snippet: >-
   Packing light and minimally has many advantages while traveling. The rule of 3
   will help you travel with less so you can explore more.
-date: 2017-09-07 23:00:00
+date: 2017-10-17 11:00:00
 pic_path: /images/te07081.jpg
 pic_des: Packing clothes
 ---
