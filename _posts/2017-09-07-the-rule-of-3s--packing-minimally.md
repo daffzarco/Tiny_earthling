@@ -41,6 +41,8 @@ Let’s pack in categories and apply the rule of 3. A big travel consideration i
 
 * - Bonus \*when all is done - and if you have room (which you should if you follow this) then you have the option to pick BONUSES! hoorraaahhh!
 
+&nbsp;
+
 So go through the categories and pick three items. 3 bottoms, 3 tops, 3 dresses etc. Are you happy with your choices? Now, lets do a pseudo pack and check how you’re looking with space. If you still have space at this point - This is your time for Bonuses! Again, do the rule of 3. Pick 3 items - it can be across categories or if you feel you need more in one than pick for that particular item.
 
 At this point, you should still have some room for overseas souvenirs and shopping if you like. Especially if this is a summer pack.
