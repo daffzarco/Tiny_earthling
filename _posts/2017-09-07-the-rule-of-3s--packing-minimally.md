@@ -17,6 +17,12 @@ So you’re going on your next adventure. Time to pack! At this point, you’re 
 
 **Packing minimal has many advantages:**
 
+* Cheaper flights when traveling with only carry on
+
+* It gets your creative juices going, when you have to think about the many different ways to outfit what you have&nbsp;
+
+* Also, people tend to forget this, washing machines are universal and normally inexpensive in most countries
+
 **But most importantly:**
 
 ***You spend less time in the morning figuring out what to wear and getting yourself out that door exploring.***
@@ -27,6 +33,13 @@ So the first step to packing is cruel and hard - some of you may not like this. 
 
 Let’s pack in categories and apply the rule of 3. A big travel consideration is the season/weather of your destination.
 
+* Bottoms&nbsp;
+* Tops
+* Dresses / Fancy Stuff&nbsp;
+* Outerwear (if you’re in summer, I normally pack just 1 lightweight jacket) \*for winter you can pack 1 heavy and 2 light)
+* Shoes (i honestly only ever 2 pairs of shoes! plus thongs for showers if you’re staying in hostels so yes 3)
+
+* Bonus \*when all is done - and if you have room (which you should if you follow this) then you have the option to pick BONUSES! hoorraaahhh!
 
 So go through the categories and pick three items. 3 bottoms, 3 tops, 3 dresses etc. Are you happy with your choices? Now, lets do a pseudo pack and check how you’re looking with space. If you still have space at this point - This is your time for Bonuses! Again, do the rule of 3. Pick 3 items - it can be across categories or if you feel you need more in one than pick for that particular item.
 
