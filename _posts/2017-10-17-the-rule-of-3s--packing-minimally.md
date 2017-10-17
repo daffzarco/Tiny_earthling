@@ -39,9 +39,8 @@ Let’s pack in categories and apply the rule of 3. A big travel consideration i
 
 * Dresses / Fancy Stuff&nbsp;
 
-* Outerwear (if you’re in summer, I normally pack just 1 lightweight jacket | for winter you can pack 1 heavy and 2 light)
-
-* Shoes (I honestly only ever have 2 pairs of shoes! plus thongs for showers if you’re staying in hostels so yes... 3)
+* Outerwear - If you’re in summer, I normally pack just 1 lightweight jacket \*for winter you can pack 1 heavy and 2 light
+* Shoes (I honestly only ever have 2 pairs of shoes! plus thongs for showers if you’re staying in hostels so yes… 3)
 
 * Bonus \*when all is done - and if you have room (which you should if you follow this) then you have the option to pick BONUSES! hoorraaahhh!
 
