@@ -17,11 +17,11 @@ So you’re going on your next adventure. Time to pack! At this point, you’re 
 
 **Packing minimal has many advantages:**
 
-1. Cheaper flights when traveling with only carry on
+- Cheaper flights when traveling with only carry on
 
-2. It gets your creative juices going, when you have to think about the many different ways to outfit what you have&nbsp;
+- It gets your creative juices going, when you have to think about the many different ways to outfit what you have&nbsp;
 
-3. Also, people tend to forget this, washing machines are universal and normally inexpensive in most countries
+- Also, people tend to forget this, washing machines are universal and normally inexpensive in most countries
 
 **But most importantly:**
 
@@ -33,17 +33,17 @@ So the first step to packing is cruel and hard - some of you may not like this. 
 
 Let’s pack in categories and apply the rule of 3. A big travel consideration is the season/weather of your destination.
 
-+ Bottoms&nbsp;
+- Bottoms&nbsp;
 
-+ Tops
+- Tops
 
-+ Dresses / Fancy Stuff&nbsp;
+- Dresses / Fancy Stuff&nbsp;
 
-+ Outerwear (if you’re in summer, I normally pack just 1 lightweight jacket) \*for winter you can pack 1 heavy and 2 light)
+- Outerwear (if you’re in summer, I normally pack just 1 lightweight jacket) \*for winter you can pack 1 heavy and 2 light)
 
-+ Shoes (i honestly only ever 2 pairs of shoes! plus thongs for showers if you’re staying in hostels so yes 3)
+- Shoes (i honestly only ever 2 pairs of shoes! plus thongs for showers if you’re staying in hostels so yes 3)
 
-+ Bonus \*when all is done - and if you have room (which you should if you follow this) then you have the option to pick BONUSES! hoorraaahhh!
+- Bonus \*when all is done - and if you have room (which you should if you follow this) then you have the option to pick BONUSES! hoorraaahhh!
 
 &nbsp;
 
